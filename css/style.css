@@ -291,6 +291,9 @@ body{
     font-weight: 700;
     color: #302e4d;    
 }
+.about .about-content .about-text h3 span{
+    color: indianred;    
+}
 .about .about-content .about-text p{
     font-size: 16px;
     line-height: 25px;
@@ -318,6 +321,7 @@ body{
 }
 .about .about-content .personal-info .info-item p span{
     font-weight: 400px;
+    font-size: 14px;
     color: #504e70;
     margin-left: 4px;
     display: inline-block;

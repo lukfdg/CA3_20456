@@ -1,24 +1,27 @@
 .aside .logo a::before{
-    border-top: 4px solid greenyellow;
-    border-left: 4px solid greenyellow;
+    border-top: 4px solid tomato;
+    border-left: 4px solid tomato;
 }
 
 .aside .logo a::after{
-    border-right: 4px solid greenyellow;
-    border-bottom: 4px solid greenyellow;
+    border-right: 4px solid tomato;
+    border-bottom: 4px solid tomato;
 }
 
 .aside .nav li a:hover,
 .aside .nav li a.active{
-    color: greenyellow;
+    color: tomato;
 }
 .btn,
-.about .about-content .about-text h3 span,
 .section-title h2::after,
 .section-title h2::before,
 .aside .nav-toogler span,
 .aside .nav-toogler span::before,
 .aside .nav-toogler span::after,
 .home .intro .social-links a{
-    background-color: pink;
+    background-color: tomato;
 }
+
+
+
+/*.about .about-content .about-text h3 span,*/
