@@ -12,9 +12,13 @@
 .aside .nav li a.active{
     color: greenyellow;
 }
-
+.btn,
+.about .about-content .about-text h3 span,
+.section-title h2::after,
+.section-title h2::before,
 .aside .nav-toogler span,
 .aside .nav-toogler span::before,
-.aside .nav-toogler span::after{
-    background-color: red;
+.aside .nav-toogler span::after,
+.home .intro .social-links a{
+    background-color: pink;
 }
