@@ -1,0 +1,20 @@
+.aside .logo a::before{
+    border-top: 4px solid greenyellow;
+    border-left: 4px solid greenyellow;
+}
+
+.aside .logo a::after{
+    border-right: 4px solid greenyellow;
+    border-bottom: 4px solid greenyellow;
+}
+
+.aside .nav li a:hover,
+.aside .nav li a.active{
+    color: greenyellow;
+}
+
+.aside .nav-toogler span,
+.aside .nav-toogler span::before,
+.aside .nav-toogler span::after{
+    background-color: red;
+}
