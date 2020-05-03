@@ -7,6 +7,10 @@
     border-right: 4px solid tomato;
     border-bottom: 4px solid tomato;
 }
+.lightbox .lightbox-controls .prev-item .fa,
+.lightbox .lightbox-controls .next-item .fa,
+.portfolio .portfolio-item .portfolio-info .icon .fa,
+.portfolio .portfolio-filter button.active,
 .service .service-item .service-item-inner .icon .fa,
 .about .about-content .about-text h3 span,
 .aside .nav li a:hover,
@@ -24,4 +28,7 @@
 .aside .nav-toogler span::after,
 .home .intro .social-links a{
     background-color:tomato;
+}
+.portfolio .portfolio-filter button.active{
+    border-color:tomato;
 }
