@@ -7,11 +7,15 @@
     border-right: 4px solid tomato;
     border-bottom: 4px solid tomato;
 }
-
+.service .service-item .service-item-inner .icon .fa,
+.about .about-content .about-text h3 span,
 .aside .nav li a:hover,
 .aside .nav li a.active{
     color: tomato;
 }
+.about .about-content .timeline .circle-dot,
+.about .about-content .timeline .timeline-item::before,
+.about .about-content .skills .skill-item .progress .progress-in,
 .btn,
 .section-title h2::after,
 .section-title h2::before,
@@ -19,9 +23,5 @@
 .aside .nav-toogler span::before,
 .aside .nav-toogler span::after,
 .home .intro .social-links a{
-    background-color: tomato;
+    background-color:tomato;
 }
-
-
-
-/*.about .about-content .about-text h3 span,*/
