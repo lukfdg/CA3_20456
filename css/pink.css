@@ -7,6 +7,8 @@
     border-right: 4px solid tomato;
     border-bottom: 4px solid tomato;
 }
+.contact .contact-info-item .icon .fa,
+.blog .blog-item-inner .blog-info .blog-tags a,
 .lightbox .lightbox-controls .prev-item .fa,
 .lightbox .lightbox-controls .next-item .fa,
 .portfolio .portfolio-item .portfolio-info .icon .fa,
@@ -17,6 +19,7 @@
 .aside .nav li a.active{
     color: tomato;
 }
+.blog .blog-item-inner .blog-img .blog-date,
 .about .about-content .timeline .circle-dot,
 .about .about-content .timeline .timeline-item::before,
 .about .about-content .skills .skill-item .progress .progress-in,

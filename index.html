@@ -9,27 +9,33 @@
 <link rel="stylesheet" href="css/pink.css" type="text/css">
 </head>
 <body>
-<!--Start Main Container-->
-<div class="main-container">
-    <!--Start Aside-->
-    <div class="aside">
-        <!--Logo-->
-        <div class="logo">
-            <a href="#">LUCAS</a>
+    <!--Start Preloader-->
+    <div class="preloader">
+        <div class="loader">
         </div>
-        <!--Nav Toogler Btn-->
-        <div class="nav-toogler">
-            <span></span>
-        </div>
-        <!--Nav-->
-        <ul class="nav">
-            <li><a href="#" class="active"><i class="fa fa-home"></i> Home</a></li>
-            <li><a href="#"><i class="fa fa-user"></i> About</a></li>
-            <li><a href="#"><i class="fa fa-list"></i> Services</a></li>
-            <li><a href="#"><i class="fa fa-briefcase"></i> Portfolio</a></li>
-            <li><a href="#"><i class="fa fa-envelope"></i> Blog</a></li>
-            <li><a href="#"><i class="fa fa-comments"></i> Contact</a></li>
-        </ul>
+    </div>
+    <!--Start Preloader-->
+    <!--Start Main Container-->
+    <div class="main-container">
+        <!--Start Aside-->
+        <div class="aside">
+            <!--Logo-->
+            <div class="logo">
+                <a href="#">LUCAS</a>
+            </div>
+            <!--Nav Toogler Btn-->
+            <div class="nav-toogler">
+                <span></span>
+            </div>
+            <!--Nav-->
+            <ul class="nav">
+                <li><a href="#home" class="active"><i class="fa fa-home"></i> Home</a></li>
+                <li><a href="#about"><i class="fa fa-user"></i> About</a></li>
+                <li><a href="#services"><i class="fa fa-list"></i> Services</a></li>
+                <li><a href="#portfolio"><i class="fa fa-briefcase"></i> Portfolio</a></li>
+                <li><a href="#blog"><i class="fa fa-envelope"></i> Blog</a></li>
+                <li><a href="#contact"><i class="fa fa-comments"></i> Contact</a></li>
+            </ul>
         <!--Copyright-->
         <div class="copyright-text">
             &copy; 2020 Developed By Lucas Ferreira.
@@ -39,17 +45,17 @@
     <!--Start Main Content-->
     <div class="main-content">
         <!--Start Home Section-->
-        <section class="home section">
+        <section class="home section active" id="home">
             <div class="container">
                 <div class="intro">
                     <img src="images/pic_lu.jpg" alt="profile" class="shadow-dark">
                     <h1>Lucas Ferreira</h1>
                     <p>I'm a Web Developer</p>
                     <div class="social-links">
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                        <a href="#"><i class="fa fa-instagram"></i></a>
-                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="https://twitter.com/Lukas_fdg" target="blank"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/lucas.ferreira.50746" target="blank"><i class="fa fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/lukfdg/" target="blank"><i class="fa fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/lucas-ferreira-27054757/" target="blank"><i class="fa fa-linkedin"></i></a>
                     </div>
                 </div>
             </div>
@@ -57,7 +63,7 @@
         <!--End Home Section-->
 
         <!--Start About Section-->
-        <section class="about section">
+        <section class="about section" id="about">
             <div class="container">
                 <div class="row">
                     <div class="section-title padd-15">
@@ -104,8 +110,7 @@
                                     </div>
                                     <div class="row">
                                         <div class="buttons padd-15">
-                                              <a href="#" class="btn">Download CV</a>
-                                            <a href="#" class="btn">Hire Me</a>
+                                            <a href="#contact" data-section-index="1" class="btn hire-me">Hire Me</a>
                                         </div>        
                                     </div>
                                 </div>
@@ -271,7 +276,7 @@
         </section>
         <!--End About Section-->
         <!--Start Service Section-->
-        <section class="service section">
+        <section class="service section" id="services">
             <div class="container">
                 <div class="row">
                     <div class="section-title padd-15">
@@ -350,7 +355,7 @@
         </section>
         <!--End Service Section-->
         <!--Start Portfolio Section-->
-        <section class="portfolio section">
+        <section class="portfolio section" id="portfolio">
             <div class="container">
                 <div class="row">
                     <div class="section-title padd-15">
@@ -460,6 +465,157 @@
             </div>
         </section>
         <!--End Portfolio Section-->
+
+        <!--Start Blog Section-->
+        <section class="blog section" id="blog">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title padd-15">
+                        <h2>Latest Blog</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <!--Start Blog Item-->
+                    <div class="blog-item padd-15">
+                        <div class="blog-item-inner shadow-dark">
+                            <div class="blog-img">
+                                <img src="images/other/1.jpg" alt="blog">
+                                    <div class="blog-date">
+                                    12 Feb 2020
+                                    </div>
+                            </div>
+                            <div class="blog-info">
+                                <h4 class="blog-title">Responsive Web Design</h4>
+                                    <p class="blog-description">Lorem ipsum dolor sit amet, consectetur adipiscing elite.
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elite.
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elite.
+                                    </p>
+                                    <p class="blog-tags">Tags : <a href="#">Html</a>, <a href="">css</a>
+                                    </p> 
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Blog Item-->
+                    <!--Start Blog Item-->
+                    <div class="blog-item padd-15">
+                        <div class="blog-item-inner shadow-dark">
+                            <div class="blog-img">
+                                <img src="images/other/2.jpg" alt="blog">
+                                    <div class="blog-date">
+                                    20 Jan 2020
+                                    </div>
+                            </div>
+                            <div class="blog-info">
+                                <h4 class="blog-title">Creative Slideshow</h4>
+                                    <p class="blog-description">Lorem ipsum dolor sit amet, consectetur adipiscing elite.
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elite.
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elite.
+                                    </p>
+                                    <p class="blog-tags">Tags : <a href="#">Html</a>, <a href="">javascript</a>
+                                    </p> 
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Blog Item-->
+                    <!--Start Blog Item-->
+                    <div class="blog-item padd-15">
+                        <div class="blog-item-inner shadow-dark">
+                            <div class="blog-img">
+                                <img src="images/other/3.jpg" alt="blog">
+                                    <div class="blog-date">
+                                    4 jun 2020
+                                    </div>
+                            </div>
+                            <div class="blog-info">
+                                <h4 class="blog-title">Image Gallery</h4>
+                                    <p class="blog-description">Lorem ipsum dolor sit amet, consectetur adipiscing elite.
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elite.
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elite.
+                                    </p>
+                                    <p class="blog-tags">Tags : <a href="#">Javascript</a>
+                                    </p> 
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Blog Item-->
+                </div>
+            </div>
+        </section>
+        <!--End Blog Section-->
+
+        <!--Start Contact Section-->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title padd-15">
+                        <h2>Contact Me</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <!--Start Contact Info Item-->
+                    <div class="contact-info-item padd-15">
+                        <div class="icon"><i class="fa fa-phone"></i></div>
+                        <h4>Mobile</h4>
+                        <p>+353 083 827-5937</p>
+                    </div>
+                    <!--End Contact Info Item-->
+                    <!--Start Contact Info Item-->
+                    <div class="contact-info-item padd-15">
+                        <div class="icon"><i class="fa fa-map-marker"></i></div>
+                        <h4>Location</h4>
+                        <p>Dublin, Ireland</p>
+                    </div>
+                    <!--End Contact Info Item-->
+                    <!--Start Contact Info Item-->
+                    <div class="contact-info-item padd-15">
+                        <div class="icon"><i class="fa fa-envelope"></i></div>
+                        <h4>Email</h4>
+                        <p>lukfdg@gmail.com</p>
+                    </div>
+                    <!--End Contact Info Item-->
+                </div>
+
+                <!--Start Contact Form-->
+                <div class="row">
+                    <form class="contact-form padd-15">
+                        <div class="row">
+                            <div class="form-item col-6 padd-15">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Name*">
+                                </div>
+                            </div>
+                            <div class="form-item col-6 padd-15">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Email*">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-item col-12 padd-15">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Subject*">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-item col-12 padd-15">
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Message*"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 padd-15">
+                                <button type="submit" class="btn">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>        
+                <!--End Contact Form-->
+            </div>  
+        </section>  
+        <!--End Contact Section-->
+
     </div>
     <!--End Main Content-->
 </div>
