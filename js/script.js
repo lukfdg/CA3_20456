@@ -152,18 +152,21 @@ const   lightbox=document.querySelector(".lightbox"),
                 showSection(this);
                 updateNav(this);
             })
-
-            const navTogglerBtn=document.querySelector(".nav-toggler"),
-                aside=document.querySelector(".aside");
-
-            navTogglerBtn.addEventListener("click", asideSectionTogglerBtn) 
-
-            function asideSectionTogglerBtn(){
-                aside.classList.toggle("open");
-                navTogglerBtn.classList.toggle("open");
+            function showSection(element){
                 for(let i=0; i<totalSection; i++){
-                    allSection[i].classList.toggle("open");
+                    allSection[i].classList.remove("active");
                 }
-            }
+                const target=element.getAttribute("href").split("#")[1];
+            document.querySelector("#"+target).classList.add("active")
+        }
+        const navTogglerBtn=document.querySelector(".nav-toggler"),
+            aside=document.querySelector(".aside");
 
+        navTogglerBtn.addEventListener("click", () =>{
+            asideSectionTogglerBtn();
+        })
 
+        function asideSectionTogglerBtn(){
+            aside.classList.toggle("open");
+            navTogglerBtn.classList.toggle("open");
+        }

@@ -26,9 +26,9 @@
 .btn,
 .section-title h2::after,
 .section-title h2::before,
-.aside .nav-toogler span,
-.aside .nav-toogler span::before,
-.aside .nav-toogler span::after,
+.aside .nav-toggler span,
+.aside .nav-toggler span::before,
+.aside .nav-toggler span::after,
 .home .intro .social-links a{
     background-color:tomato;
 }
