@@ -653,7 +653,6 @@ input,textarea,select{
     display: none;
 }
 .portfolio .portfolio-item.show{
-    display: none;
     animation: showItem 0.5s ease;
 }
 @-webkit-keyframes showItem{
